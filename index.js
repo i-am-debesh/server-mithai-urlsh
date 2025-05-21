@@ -15,7 +15,7 @@ await connectDB();
 
 app.get('/',(req,res)=>{
     console.log(req.originalUrl);    
-    res.json('hello from Debesh');
+    res.json('hello from Mithai (:');
 });
 
 app.get('/userurl', async (req,res)=>{
